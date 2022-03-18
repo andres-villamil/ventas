@@ -32,7 +32,7 @@ console.log("enumeración", Estado.activo)
 
 //////////////type assertions
 
-let valor:any = "hola estoy aprendiendo typescript";
+let valor:any = "hola typescript";
 
 let caracteres:number = (<string> valor).length
 let caracteres2:number = (valor as string).length
